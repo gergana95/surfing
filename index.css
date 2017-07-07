@@ -45,8 +45,11 @@
     margin-right: 0;
 }
 
-.list__link {
+.font-primary {
     font-family: "League Spartan";
+}
+
+.list__link {
     font-size: 9px;
     opacity: 0.9;
     color: #0b0c11;
