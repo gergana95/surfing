@@ -64,6 +64,8 @@
 
 .left {float: left;}
 .right {float: right;}
+
+/* https://css-tricks.com/snippets/css/clear-fix/ */
 .group {
     content: "";
     display: table;
