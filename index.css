@@ -16,7 +16,7 @@
 .header {
 	width: 612px;
 	height: 44px;
-    margin: 29px 99px;
+    margin: 38px 720px 0 108px;
     
 }
 
@@ -34,7 +34,8 @@
 
 .header__nav {
     display: inline-block;
-    width: 447px;
+    width: 406px;
+    margin-top: 15px;
     float: right;
 }
 
@@ -42,7 +43,11 @@
     list-style-type: none;
     float: left;
     height: 18px;
-    margin-right: 45px;
+    margin-right: 43px;
+}
+
+.list__item:last-child {
+    margin-right: 0;
 }
 
 .list__link {
@@ -52,7 +57,7 @@
     color: #0b0c11;
     text-transform: uppercase;
     text-decoration: none;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     height: 100%;
     width: 100%;
 }
