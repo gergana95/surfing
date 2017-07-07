@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'League Spartan';
+    src: url('fonts/subset-LeagueSpartan-Bold.eot');
+    src: url('fonts/subset-LeagueSpartan-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/subset-LeagueSpartan-Bold.woff') format('woff'),
+        url('fonts/subset-LeagueSpartan-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Header styling */
+.wrapper {
+    width: 1225px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header {
+    margin-top: 12px;
+}
+
+.header__logo {
+    margin-right: 192px;
+}
+
+.font-primary {
+    font-family:  "League Spartan", Arial, Tahoma, sans-serif;
+}
+
+.navigation {
+    display: inline-block;
+}
+
+.navigation__list {
+    padding: 13px 0;
+    margin: 0;
+}
+
+.navigation__item {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 43px;
+}
+
+.navigation__item:last-child {
+    margin-right: 0;
+}
+
+.navigation__link {
+    font-size: 9px;
+    opacity: 0.9;
+    color: #0b0c11;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 5px;
+    height: 100%;
+
+}
+
+.navigation__link:hover {
+    color: #5da8ef;
+}
+
+
+.left {float: left;}
+.right {float: right;}
+
+/* https://css-tricks.com/snippets/css/clear-fix/ */
+.group {
+    content: "";
+    display: table;
+    clear: both;
+}
