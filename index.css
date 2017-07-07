@@ -46,7 +46,7 @@
 }
 
 .font-primary {
-    font-family: "League Spartan";
+    font-family: "League Spartan", Arial, Tahoma, sans-serif;
 }
 
 .list__link {
