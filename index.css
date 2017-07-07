@@ -10,32 +10,33 @@
 
 /* Header styling */
 .wrapper {
-
+    width: 1630px;
+    margin: 12px auto;
 }
 
 .header {
-    width: 612px;
     height: 44px;
-    margin: 38px 720px 0 108px;
 }
 
 .list {
-    width: 100%;
-    height: 100%;
     padding: 0;
     margin:0;
+    float: right;
+    display: inline-flex;
+    margin-top: 16px;
 }
 
+.header__logo {
+    margin-right: 100px;
+}
 .header__nav {
     display: inline-block;
-    width: 406px;
     margin-top: 15px;
-    float: right;
+    float: left;
 }
 
 .list__item {
     list-style-type: none;
-    float: left;
     height: 18px;
     margin-right: 43px;
 }
@@ -53,7 +54,7 @@
     text-decoration: none;
     letter-spacing: 5px;
     height: 100%;
-    width: 100%;
+
 }
 
 
