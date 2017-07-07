@@ -18,17 +18,17 @@
     height: 44px;
 }
 
+.header__logo {
+    margin-right: 100px;
+}
+
 .list {
     padding: 0;
     margin:0;
     float: right;
-    display: inline-flex;
     margin-top: 16px;
 }
 
-.header__logo {
-    margin-right: 100px;
-}
 .header__nav {
     display: inline-block;
     margin-top: 15px;
@@ -38,6 +38,7 @@
 .list__item {
     list-style-type: none;
     height: 18px;
+    display: inline-block;
     margin-right: 43px;
 }
 
