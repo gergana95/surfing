@@ -2,7 +2,7 @@
     font-family: 'League Spartan';
     src: url('fonts/subset-LeagueSpartan-Bold.eot');
     src: url('fonts/subset-LeagueSpartan-Bold.eot?#iefix') format('embedded-opentype'),
-        url('fonts/ssubset-LeagueSpartan-Bold.woff') format('woff'),
+        url('fonts/subset-LeagueSpartan-Bold.woff') format('woff'),
         url('fonts/subset-LeagueSpartan-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
