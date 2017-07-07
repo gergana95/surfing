@@ -60,5 +60,9 @@
 
 }
 
+.list__link:hover {
+    color: #5da8ef;
+}
+
 
 
