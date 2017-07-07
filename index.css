@@ -11,34 +11,29 @@
 /* Header styling */
 .wrapper {
     width: 1225px;
-    margin: auto;
+    margin: 0 auto;
+    padding: 0 10px;
 }
 
 .header {
-    height: 44px;
     margin-top: 12px;
 }
 
 .header__logo {
-    margin-right: 100px;
-}
-
-.list {
-    padding: 0;
-    margin:0;
-    float: right;
-    margin-top: 16px;
+    margin-right: 192px;
 }
 
 .header__nav {
     display: inline-block;
-    margin-top: 15px;
-    float: left;
+}
+
+.list {
+    padding: 13px 0;
+    margin: 0;
 }
 
 .list__item {
     list-style-type: none;
-    height: 18px;
     display: inline-block;
     margin-right: 43px;
 }
@@ -67,4 +62,10 @@
 }
 
 
-
+.left {float: left;}
+.right {float: right;}
+.group {
+    content: "";
+    display: table;
+    clear: both;
+}
