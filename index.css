@@ -69,10 +69,9 @@
 }
 
 .primary-slider__content {
-     /*linear-gradient(to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);*/
-     position: absolute;
-     transform: translateY(-50%);
-     top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
 }
 
 .primary-slider__subtitle {
@@ -88,7 +87,6 @@
 .primary-slider__title {
     margin: 0;
     color: #0b0c11;
-    font-family: "Playfair Display";
     font-size: 62px;
     font-weight: 700;
     line-height: 64px;
