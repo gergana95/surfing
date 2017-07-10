@@ -132,6 +132,8 @@
 
 .slider-controls__left-arrow {
     margin-right: 15px;
+    cursor: pointer;
+    padding: 7px;
 }
 
 .slider-controls__left-arrow:hover > path,
@@ -141,10 +143,12 @@
 
 .slider-controls__right-arrow {
     margin-left: 15px;
+    cursor: pointer;
+    padding: 7px;
 }
 
 .font-secondary {
-    font-family: "Playfair Display", 'Times New Roman', serif;
+    font-family: "Playfair Display", "Times New Roman", serif;
 }
 
 .font-tertiary {
