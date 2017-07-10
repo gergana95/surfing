@@ -63,6 +63,17 @@
 
 /* section primary-slider */
 
+.primary-slider__content {
+     /*linear-gradient(to right, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);*/
+     position: relative;
+     z-index: 1;
+     top: 340px;
+}
+
+.primary-slider__image {
+    position: relative;
+}
+
 .font-secondary {
     font-family: "Playfair Display", Arial, Tahoma, sans-serif;
 }
@@ -75,7 +86,7 @@
 .right {float: right;}
 
 /* https://css-tricks.com/snippets/css/clear-fix/ */
-.group {
+.group:after {
     content: "";
     display: table;
     clear: both;
