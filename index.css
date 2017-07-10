@@ -61,6 +61,15 @@
     color: #5da8ef;
 }
 
+/* section primary-slider */
+
+.font-secondary {
+    font-family: "Playfair Display", Arial, Tahoma, sans-serif;
+}
+
+.font-tertiary {
+    font-family: "Poppins", Arial, Tahoma, sans-serif;
+}
 
 .left {float: left;}
 .right {float: right;}
