@@ -8,15 +8,17 @@
     font-style: normal;
 }
 
-/* Header styling */
 .wrapper {
     width: 1225px;
     margin: 0 auto;
     padding: 0 10px;
 }
 
+/* Header styling */
+
 .header {
-    margin-top: 12px;
+    margin-top: 38px;
+    padding-bottom: 43px;
 }
 
 .header__logo {
@@ -61,12 +63,103 @@
     color: #5da8ef;
 }
 
+/* section primary-slider */
+
+.primary-slider {
+    position: relative;
+}
+
+.primary-slider__content {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    width: 100%;
+}
+
+.primary-slider__subtitle {
+    opacity: 0.9;
+    color: #5da8ef;
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.primary-slider__title {
+    margin: 0;
+    color: #0b0c11;
+    font-size: 62px;
+    font-weight: 700;
+    padding-top: 11px;
+    padding-bottom: 13px;
+    line-height: 64px;
+}
+
+.primary-slider__paragraph {
+    width: 32%;
+    color: #8f8f8f;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+.primary-slider__image {
+    box-shadow: -7px 19px 20px 5px #d9d9d9;
+}
+
+.slider-controls {
+    position: absolute;
+    bottom: 3px;
+}
+
+.slider-controls__pages {
+    color: #ebebeb;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 37px;
+    text-transform: uppercase;
+}
+
+.slider-controls__page {
+    color: #262626;
+}
+
+.slider-controls__page--active {
+    color: #5da8ef;
+}
+
+.slider-controls__left-arrow {
+    margin-right: 15px;
+    cursor: pointer;
+    padding: 7px;
+}
+
+.slider-controls__left-arrow:hover > path,
+.slider-controls__right-arrow:hover > path {
+    fill: #5da8ef;
+}
+
+.slider-controls__right-arrow {
+    margin-left: 15px;
+    cursor: pointer;
+    padding: 7px;
+}
+
+.font-secondary {
+    font-family: "Playfair Display", "Times New Roman", serif;
+}
+
+.font-tertiary {
+    font-family: "Poppins", Arial, Tahoma, sans-serif;
+}
 
 .left {float: left;}
 .right {float: right;}
 
 /* https://css-tricks.com/snippets/css/clear-fix/ */
-.group {
+.group:after {
     content: "";
     display: table;
     clear: both;
