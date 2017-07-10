@@ -8,15 +8,17 @@
     font-style: normal;
 }
 
-/* Header styling */
 .wrapper {
     width: 1225px;
     margin: 0 auto;
     padding: 0 10px;
 }
 
+/* Header styling */
+
 .header {
     margin-top: 12px;
+    padding-bottom: 43px;
 }
 
 .header__logo {
@@ -65,13 +67,13 @@
 
 .primary-slider {
     position: relative;
-    padding-top: 43px;
 }
 
 .primary-slider__content {
     position: absolute;
     transform: translateY(-50%);
     top: 50%;
+    width: 100%;
 }
 
 .primary-slider__subtitle {
@@ -79,7 +81,6 @@
     color: #5da8ef;
     font-size: 9px;
     font-weight: 700;
-    line-height: 66px;
     text-transform: uppercase;
     letter-spacing: 6px;
 }
@@ -89,25 +90,28 @@
     color: #0b0c11;
     font-size: 62px;
     font-weight: 700;
+    padding-top: 11px;
+    padding-bottom: 13px;
     line-height: 64px;
 }
 
 .primary-slider__paragraph {
-    width: 47%;
+    width: 32%;
     color: #8f8f8f;
     font-size: 14px;
     font-weight: 300;
     line-height: 24px;
+    margin: 0;
+    padding: 0;
 }
 
 .primary-slider__image {
     box-shadow: -7px 19px 20px 5px #d9d9d9;
 }
 
-
 .slider-controls {
     position: absolute;
-    top: 93%;
+    bottom: 3px;
 }
 
 .slider-controls__pages {
@@ -130,8 +134,8 @@
     margin-right: 15px;
 }
 
-.slider-controls__left-arrow:hover,
-.slider-controls__right-arrow:hover {
+.slider-controls__left-arrow:hover > path,
+.slider-controls__right-arrow:hover > path {
     fill: #5da8ef;
 }
 
@@ -140,7 +144,7 @@
 }
 
 .font-secondary {
-    font-family: "Playfair Display", Arial, Tahoma, sans-serif;
+    font-family: "Playfair Display", 'Times New Roman', serif;
 }
 
 .font-tertiary {
