@@ -160,7 +160,9 @@
 .social-bar {
     position: absolute;
     left: 83%;
-    top: 36px;
+    top: 175px;
+    width: 19px;
+    height: 568px;
 }
 
 .social-bar__title {
@@ -170,6 +172,17 @@
     color: #0b0c11;
     font-weight: 700;
     letter-spacing: 6px;
+    -ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+    transform-origin: left top 0;
+    position: absolute;
+    width: 259px;
+}
+
+.social-icons {
+    padding-top: 350px;
+    position: absolute;
 }
 
 .social-icons > a {
