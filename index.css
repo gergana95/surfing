@@ -8,7 +8,12 @@
     font-style: normal;
 }
 
+body {
+    overflow: hidden;
+}
+
 .wrapper {
+    position: relative;
     width: 1225px;
     margin: 0 auto;
     padding: 0 10px;
@@ -154,6 +159,58 @@
 .font-tertiary {
     font-family: "Poppins", Arial, Tahoma, sans-serif;
 }
+
+/* social-bar section */
+
+.social-bar {
+    position: absolute;
+    top: 11px;
+    right: -54px;
+    height: 640px;
+}
+
+.social-bar__title {
+    opacity: 0.2;
+    text-transform: uppercase;
+    font-size: 9px;
+    color: #0b0c11;
+    font-weight: 700;
+    letter-spacing: 6px;
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-height: 420px;
+}
+
+.social-icons {
+    bottom: -10px;
+    position: absolute;
+    left: 50%;
+    margin-left: -10px;
+    text-align: center;
+}
+
+.social-icons__anchor {
+    text-decoration: none;
+    display: block;
+    margin-bottom: 23px;
+}
+
+.social-icons__anchor:last-child {
+    margin-bottom: 0;
+}
+
+.social-icons__icon > path {
+    transition: fill 0.5s;
+}
+.social-icons__icon:hover > path {
+    fill: #5da8ef;
+}
+
 
 .left {float: left;}
 .right {float: right;}
