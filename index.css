@@ -191,6 +191,7 @@ body {
     position: absolute;
     left: 50%;
     margin-left: -10px;
+    text-align: center;
 }
 
 .social-icons__anchor {
