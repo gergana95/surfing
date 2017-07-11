@@ -155,6 +155,18 @@
     font-family: "Poppins", Arial, Tahoma, sans-serif;
 }
 
+/* social-bar section */
+
+.social-bar {
+    position: absolute;
+    left: 83%;
+    top: 36px;
+}
+
+.social-icons > a {
+    text-decoration: none;
+}
+
 .left {float: left;}
 .right {float: right;}
 
