@@ -191,7 +191,7 @@ body {
     position: absolute;
 }
 
-.social-icons > a {
+.social-icons__anchor {
     text-decoration: none;
     display: block;
     margin-bottom: 23px;
@@ -199,9 +199,6 @@ body {
 
 .social-icons__anchor:last-child {
     margin-bottom: 0;
-}
-
-.social-icons__icon > path {
 }
 
 .social-icons__icon:hover > path {
