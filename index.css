@@ -191,8 +191,13 @@
     margin-bottom: 0;
 }
 
+@keyframes colorchange {
+    from { fill: #ebebeb; }
+    to { fill: #5da8ef; }
+}
 .social-icons__icon:hover > path {
-    fill: #5da8ef;
+    animation-name: colorchange;
+    animation-duration: 4s;
 }
 
 
