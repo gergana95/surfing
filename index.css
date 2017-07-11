@@ -203,9 +203,11 @@ body {
     margin-bottom: 0;
 }
 
+.social-icons__icon > path {
+    transition: fill 0.5s;
+}
 .social-icons__icon:hover > path {
     fill: #5da8ef;
-    transition: fill 0.5s;
 }
 
 
