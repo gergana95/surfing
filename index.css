@@ -189,6 +189,8 @@ body {
 .social-icons {
     bottom: 0;
     position: absolute;
+    left: 50%;
+    margin-left: -10px;
 }
 
 .social-icons__anchor {
