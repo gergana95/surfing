@@ -9,6 +9,7 @@
 }
 
 .wrapper {
+    position: relative;
     width: 1225px;
     margin: 0 auto;
     padding: 0 10px;
@@ -159,10 +160,8 @@
 
 .social-bar {
     position: absolute;
-    left: 83%;
-    top: 175px;
-    width: 19px;
-    height: 568px;
+    top: 11px;
+    right: -54px;
 }
 
 .social-bar__title {
@@ -172,24 +171,29 @@
     color: #0b0c11;
     font-weight: 700;
     letter-spacing: 6px;
-    -ms-transform: rotate(7deg); /* IE 9 */
-    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
-    transform: rotate(-90deg);
-    transform-origin: left top 0;
-    position: absolute;
-    width: 259px;
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
 }
 
 .social-icons {
-    padding-top: 350px;
-    position: absolute;
+    padding-top: 285px;
 }
 
 .social-icons > a {
     text-decoration: none;
     display: block;
+    margin-bottom: 23px;
 }
 
+.social-icons > a:last-child {
+    margin-bottom: 0;
+}
+
+.social-icons__icon:hover > path {
+    fill: #5da8ef;
+}
 
 
 .left {float: left;}
