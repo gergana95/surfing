@@ -247,6 +247,7 @@ q:before, q:after{ content: "";}
 
 .gallery {
     position: relative;
+    height: 592px;
 }
 
 .gallery__image-col-2 {
@@ -255,6 +256,51 @@ q:before, q:after{ content: "";}
     z-index: 1;
     right: 2px;
 }
+
+.gallery__content {
+    bottom: 13px;
+    position: absolute;
+    left: 9%;
+}
+
+.gallery__play {
+
+}
+
+.gallery__text {
+    opacity: 0.65;
+    color: #616161;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    width: 45%;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.read-more {
+    display: inline-block;
+    color: #333333;
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 5px;
+    padding-bottom: 7px;
+    position: relative;
+}
+
+.read-more::after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 94%;
+    height: 2px;
+    background-color: #5da8ef;
+    margin-left: 0px;
+    margin-top: 6px;
+}
+
 
 /* used fonts */
 
