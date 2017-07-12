@@ -30,10 +30,6 @@ body {
     margin-right: 192px;
 }
 
-.font-primary {
-    font-family:  "League Spartan", Arial, Tahoma, sans-serif;
-}
-
 .navigation {
     display: inline-block;
 }
@@ -72,6 +68,7 @@ body {
 
 .primary-slider {
     position: relative;
+    margin-bottom: 190px;
 }
 
 .primary-slider__content {
@@ -152,13 +149,6 @@ body {
     padding: 7px;
 }
 
-.font-secondary {
-    font-family: "Playfair Display", "Times New Roman", serif;
-}
-
-.font-tertiary {
-    font-family: "Poppins", Arial, Tahoma, sans-serif;
-}
 
 /* social-bar section */
 
@@ -209,6 +199,65 @@ body {
 }
 .social-icons__icon:hover > path {
     fill: #5da8ef;
+}
+
+/* media-content section */
+
+.quote {
+    margin: 0 auto;
+    width: 610px;
+}
+
+.quote__content {
+    opacity: 0.9;
+    color: #333333;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 38px;
+    width: 610px;
+    display: block;
+    text-align: center;
+}
+
+q:before, q:after{ content: "";}
+
+.quote__author {
+    opacity: 0.9;
+    color: #333333;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 55px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.quote::after {
+    display: block;
+    content: "";
+    border-right: 2px solid #5da8ef;
+    text-align: center;
+    height: 100px;
+    width: 300px;
+    margin-bottom: 60px;
+}
+
+
+
+/* used fonts */
+
+.font-primary {
+    font-family: "League Spartan", Arial, Tahoma, sans-serif;
+}
+
+.font-secondary {
+    font-family: "Playfair Display", "Times New Roman", serif;
+}
+
+.font-tertiary {
+    font-family: "Poppins", Arial, Tahoma, sans-serif;
 }
 
 
