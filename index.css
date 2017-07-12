@@ -247,7 +247,6 @@ q:before, q:after{ content: "";}
 
 .gallery {
     position: relative;
-    height: 592px;
 }
 
 .gallery__col-2 {
@@ -316,6 +315,9 @@ q:before, q:after{ content: "";}
     letter-spacing: 5px;
     padding-bottom: 7px;
     position: relative;
+}
+
+.read-more:hover {
 }
 
 .read-more::after {
