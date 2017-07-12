@@ -264,7 +264,27 @@ q:before, q:after{ content: "";}
 }
 
 .gallery__play {
+    width: 68px;
+    height: 68px;
+    box-shadow: -2px -2px 35px rgba(0, 0, 0, 0.13);
+    background-color: #5da8ef;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    bottom: 40%;
+    right: 27%;
+}
 
+.gallery__play::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid transparent;
+    border-left: 14px solid white;
+    position: absolute;
+    top: 30%;
+    left: 45%;
 }
 
 .gallery__text {
@@ -294,10 +314,10 @@ q:before, q:after{ content: "";}
     display: block;
     content: "";
     position: absolute;
-    width: 94%;
+    width: 100%;
     height: 2px;
     background-color: #5da8ef;
-    margin-left: 0px;
+    margin-left: -3.5px;
     margin-top: 6px;
 }
 
