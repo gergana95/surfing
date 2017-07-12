@@ -206,6 +206,7 @@ body {
 .quote {
     margin: 0 auto;
     width: 610px;
+    padding-bottom: 62px;
 }
 
 .quote__content {
@@ -237,14 +238,23 @@ q:before, q:after{ content: "";}
 .quote::after {
     display: block;
     content: "";
-    border-right: 2px solid #5da8ef;
     text-align: center;
     height: 100px;
-    width: 300px;
-    margin-bottom: 60px;
+    width: 2px;
+    margin: 0 auto;
+    background-color: #5da8ef;
 }
 
+.gallery {
+    position: relative;
+}
 
+.gallery__image-col-2 {
+    position: absolute;
+    top: 43px;
+    z-index: 1;
+    right: 2px;
+}
 
 /* used fonts */
 
