@@ -253,7 +253,7 @@ q:before, q:after{ content: "";}
 .gallery__col-2 {
     position: absolute;
     right: 0;
-    top: 50px;
+    top: 45px;
 }
 
 .gallery__image-col-2 {
