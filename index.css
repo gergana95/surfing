@@ -250,17 +250,14 @@ q:before, q:after{ content: "";}
     height: 592px;
 }
 
-.gallery__image-col-2 {
+.gallery__col-2 {
     position: absolute;
-    top: 43px;
-    z-index: 1;
-    right: 2px;
+    right: 0;
+    top: 50px;
 }
 
-.gallery__content {
-    bottom: 13px;
-    position: absolute;
-    left: 9%;
+.gallery__image-col-2 {
+    z-index: 1;
 }
 
 .gallery__play {
@@ -271,20 +268,32 @@ q:before, q:after{ content: "";}
     border-radius: 50%;
     position: absolute;
     z-index: 2;
-    bottom: 40%;
-    right: 27%;
+    bottom: 50%;
+    right: 50%;
+    margin: 0 -34px -34px 0;
+}
+
+.gallery__play:hover {
 }
 
 .gallery__play::after {
     content: "";
     width: 0;
     height: 0;
-    border-top: 14px solid transparent;
-    border-bottom: 14px solid transparent;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
     border-left: 14px solid white;
     position: absolute;
-    top: 30%;
-    left: 45%;
+    top: 50%;
+    left: 50%;
+    margin: -8px 0 0 -4px;
+}
+
+
+.gallery__content {
+    width: 336px;
+    margin-top: 59px;
+    margin-left: 117px;
 }
 
 .gallery__text {
@@ -293,7 +302,6 @@ q:before, q:after{ content: "";}
     font-size: 14px;
     font-weight: 300;
     line-height: 24px;
-    width: 45%;
     display: block;
     margin-bottom: 40px;
 }
