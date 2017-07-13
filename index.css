@@ -325,13 +325,17 @@ q:before, q:after{ content: "";}
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 5px;
-    padding-bottom: 7px;
     position: relative;
-    transition: width .5s ease, background-color .5s ease;
+    transition: all .5s ease;
+    padding-top: 12px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 5px;
 }
 
 .read-more:hover {
-    box-shadow: 0 0 1px 15px rgba(230, 230, 230, 0.4);
+    background-color: #5da8ef;
+    color: #fff;
 }
 
 .read-more::after {
@@ -341,12 +345,8 @@ q:before, q:after{ content: "";}
     width: 100%;
     height: 2px;
     background-color: #5da8ef;
-    margin-left: -3.5px;
+    margin-left: -10px;
     margin-top: 6px;
-}
-
-.read-more:hover::after {
-    background-color: rgba(230, 230, 230, 0.4);
 }
 
 /* used fonts */
