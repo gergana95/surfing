@@ -374,7 +374,33 @@ q:before, q:after{ content: "";}
     display: flex;
 }
 
+.content__subtitle {
+    color: #7a7a7a;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
 
+.content__title {
+    color: #333333;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.content__price {
+    color: #ce60a8;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.content__buy {
+    color: #333333;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 66px;
+    text-transform: uppercase;
+}
 
 /* used fonts */
 
