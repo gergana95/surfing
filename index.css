@@ -308,7 +308,7 @@ q:before, q:after{ content: "";}
     margin-bottom: 40px;
 }
 
-.read-more {
+.primary-button {
     display: inline-block;
     color: #333333;
     font-size: 9px;
@@ -324,12 +324,12 @@ q:before, q:after{ content: "";}
     padding-right: 5px;
 }
 
-.read-more:hover {
+.primary-button:hover {
     background-color: #5da8ef;
     color: #fff;
 }
 
-.read-more::after {
+.primary-button::after {
     display: block;
     content: "";
     position: absolute;
