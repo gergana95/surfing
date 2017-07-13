@@ -203,6 +203,10 @@ body {
 
 /* media-content section */
 
+.section-media-content {
+    margin-bottom: 217px;
+}
+
 .quote {
     margin: 0 auto;
     width: 610px;
@@ -339,6 +343,38 @@ q:before, q:after{ content: "";}
     margin-left: -10px;
     margin-top: 6px;
 }
+
+/* shop container */
+
+.shop-heading {
+    margin: 0 auto;
+    width: 218px;
+}
+
+.heading__subtitle {
+    opacity: 0.9;
+    color: #5da8ef;
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    text-align: center;
+    display: block;
+}
+
+.heading__title {
+    color: #333333;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 49px;
+    margin:0;
+}
+
+.shop-grid {
+    display: flex;
+}
+
+
 
 /* used fonts */
 
