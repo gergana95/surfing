@@ -249,10 +249,6 @@ q:before, q:after{ content: "";}
     background-color: #5da8ef;
 }
 
-.quote:hover::after {
-    width: 0;
-}
-
 .gallery {
     position: relative;
 }
@@ -371,9 +367,21 @@ q:before, q:after{ content: "";}
 }
 
 .shop-grid {
-    display: flex;
+    text-align: center;
 }
 
+.shop-grid__col-01,
+.shop-grid__col-02,
+.shop-grid__col-03 {
+    display: inline-block;
+    position: relative;
+}
+
+.catalog__content {
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
 .content__subtitle {
     color: #7a7a7a;
     font-size: 12px;
