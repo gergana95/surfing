@@ -259,10 +259,6 @@ q:before, q:after{ content: "";}
     top: 45px;
 }
 
-.gallery__image-col-2 {
-    z-index: 1;
-}
-
 .gallery__play {
     width: 68px;
     height: 68px;
@@ -274,7 +270,6 @@ q:before, q:after{ content: "";}
     bottom: 50%;
     right: 50%;
     margin: 0 -34px -34px 0;
-  /*  transition: fill 4s;*/
     transition: box-shadow 400ms cubic-bezier(.2,0,.7,1), transform 200ms cubic-bezier(.2,0,.7,1);
 }
 
@@ -295,10 +290,6 @@ q:before, q:after{ content: "";}
     top: 50%;
     left: 50%;
     margin: -8px 0 0 -4px;
-}
-
-.gallery__play:hover::after {
- /* maybe hover effect with triangle */
 }
 
 .gallery__content {
