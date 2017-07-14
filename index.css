@@ -387,7 +387,6 @@ q:before, q:after{ content: "";}
     height: 442px;
 }
 
-
 .shop-grid__col-03 {
     margin-right: 0;
 }
@@ -412,7 +411,6 @@ q:before, q:after{ content: "";}
     z-index: -1;
     bottom: 0;
     left: 0;
-    bottom: 0;
 }
 
 .catalog__content {
@@ -459,16 +457,21 @@ q:before, q:after{ content: "";}
     margin-top: 5px;
 }
 
+.content__buy:hover {
+    color: #5da8ef;
+}
 .shop-controls__previous-arrow {
     position: absolute;
     bottom: 250px;
     left: -75px;
+    cursor: pointer;
 }
 
 .shop-controls__next-arrow {
     position: absolute;
     bottom: 250px;
-    right: -135px;
+    right: -75px;
+    cursor: pointer;
 }
 
 /* used fonts */
