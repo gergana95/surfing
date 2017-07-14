@@ -377,6 +377,11 @@ q:before, q:after{ content: "";}
     position: relative;
 }
 
+.catalog__surf-image {
+    -webkit-filter: drop-shadow(5px 5px 5px #d1d3e1);
+    filter: drop-shadow(11px 5px 4px #d1d3e1);
+}
+
 .catalog__content {
     position: absolute;
     top: 50%;
