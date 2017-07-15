@@ -320,10 +320,7 @@ q:before, q:after{ content: "";}
     letter-spacing: 5px;
     position: relative;
     transition: all .5s ease;
-    padding-top: 12px;
-    padding-bottom: 7px;
-    padding-left: 10px;
-    padding-right: 5px;
+    padding:12px 5px 7px 10px;
 }
 
 .primary-button:hover {
@@ -452,25 +449,33 @@ q:before, q:after{ content: "";}
     font-weight: 700;
     text-transform: uppercase;
     margin-left: 70px;
-    display: block;
+    display: inline-block;
     letter-spacing: 5px;
     margin-top: 5px;
+    text-decoration: none;
 }
 
 .content__buy:hover {
     color: #5da8ef;
 }
+
+.shop-container button {
+    position: relative;
+    border-color: transparent;
+    background-color: transparent;
+}
+
 .shop-controls__previous-arrow {
     position: absolute;
     bottom: 250px;
-    left: -75px;
+    left: -705px;
     cursor: pointer;
 }
 
 .shop-controls__next-arrow {
     position: absolute;
     bottom: 250px;
-    right: -75px;
+    right: -598px;
     cursor: pointer;
 }
 
