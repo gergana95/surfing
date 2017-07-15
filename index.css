@@ -468,14 +468,14 @@ q:before, q:after{ content: "";}
 .shop-controls__previous-arrow {
     position: absolute;
     bottom: 250px;
-    left: -705px;
+    left: -599px;
     cursor: pointer;
 }
 
 .shop-controls__next-arrow {
     position: absolute;
     bottom: 250px;
-    right: -598px;
+    right: -713px;
     cursor: pointer;
 }
 
