@@ -459,23 +459,27 @@ q:before, q:after{ content: "";}
     color: #5da8ef;
 }
 
-.shop-container button {
-    position: relative;
+.shop-controls__previous-button {
     border-color: transparent;
     background-color: transparent;
-}
-
-.shop-controls__previous-arrow {
     position: absolute;
     bottom: 250px;
     left: -84px;
+}
+
+.shop-controls__next-button {
+    border-color: transparent;
+    background-color: transparent;
+    position: absolute;
+    bottom: 250px;
+    right: -84px;
+}
+
+.shop-controls__previous-arrow {
     cursor: pointer;
 }
 
 .shop-controls__next-arrow {
-    position: absolute;
-    bottom: 250px;
-    right: -84px;
     cursor: pointer;
 }
 
