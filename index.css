@@ -485,18 +485,30 @@ q:before, q:after{ content: "";}
 
 /* surf camps - first article */
 
+.surf-camps {
+    position: relative;
+}
+
+.surf-camps__article {
+    position: absolute;
+
+}
+
 .article__number {
     color: #f9f9f9;
     font-size: 130px;
     font-weight: 700;
-    line-height: 66px;
+   /* line-height: 66px;*/
 }
 
 .article__title {
     color: #333333;
     font-size: 42px;
     font-weight: 700;
-    line-height: 66px;
+    line-height: 50px;
+    position: absolute;
+    top: 70px;
+    margin:0;
 }
 
 .article__title::after {
@@ -506,6 +518,7 @@ q:before, q:after{ content: "";}
     width: 23px;
     height: 2px;
     background-color: #5da8ef;
+    margin-top: 10px;
 }
 
 .article__paragraph {
@@ -514,6 +527,7 @@ q:before, q:after{ content: "";}
     font-size: 14px;
     font-weight: 300;
     line-height: 24px;
+    width: 27.4%;
 }
 
 /* used fonts */
