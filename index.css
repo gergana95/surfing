@@ -483,6 +483,39 @@ q:before, q:after{ content: "";}
     cursor: pointer;
 }
 
+/* surf camps - first article */
+
+.article__number {
+    color: #f9f9f9;
+    font-size: 130px;
+    font-weight: 700;
+    line-height: 66px;
+}
+
+.article__title {
+    color: #333333;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 66px;
+}
+
+.article__title::after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 2px;
+    background-color: #5da8ef;
+}
+
+.article__paragraph {
+    opacity: 0.65;
+    color: #616161;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
 /* used fonts */
 
 .font-primary {
