@@ -627,7 +627,7 @@ input[type="email"]:focus {
     text-indent: 29px;
 }
 
-button[type="submit"] {
+.submit-button {
     width: 50px;
     height: 50px;
     background-color: #5da8ef;
@@ -638,11 +638,11 @@ button[type="submit"] {
     position: relative;
 }
 
-.submit-button {
+.submit-button-svg {
     vertical-align: middle;
 }
 
-button[type="submit"]:hover > .submit-button > path {
+.submit-button:hover > .submit-button-svg > path {
     fill: #616161;
     transition: fill 0.5s;
 }
