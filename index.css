@@ -688,6 +688,7 @@ input[type="email"]:focus {
 
 .footer {
     text-align: center;
+    padding-bottom: 40px;
 }
 
 .footer__logo {
@@ -699,12 +700,12 @@ input[type="email"]:focus {
     margin-bottom: 24px;
 }
 
-.social-icons__anchor {
+.social-icons--footer .social-icons__anchor {
     display: inline-block;
     margin-right: 30px;
 }
 
-.social-icons__anchor:last-child {
+.social-icons--footer .social-icons__anchor:last-child {
     margin: 0;
 }
 
