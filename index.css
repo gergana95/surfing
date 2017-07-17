@@ -650,8 +650,9 @@ input[type="email"]:focus {
 
 /* section contact */
 
-.secion-contact {
+.section-contact {
     position: relative;
+    padding-bottom: 197px;
 }
 
 .section-contact__image {
@@ -682,6 +683,31 @@ input[type="email"]:focus {
     margin: 42px 0 45px 49px;
     font-style: normal;
 }
+
+/* footer */
+
+.footer {
+    text-align: center;
+}
+
+.footer__logo {
+    margin-bottom: 17px;
+}
+
+.navigation--footer {
+    display: block;
+    margin-bottom: 24px;
+}
+
+.social-icons__anchor {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.social-icons__anchor:last-child {
+    margin: 0;
+}
+
 
 /* used fonts */
 
