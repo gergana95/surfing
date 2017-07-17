@@ -580,6 +580,7 @@ q:before, q:after{ content: "";}
     margin: 0 auto;
     width: 590px;
     text-align: center;
+    margin-bottom: 148px;
 }
 
 .join__title {
@@ -637,6 +638,40 @@ button[type="submit"]:hover {
 .submit-button:hover > path {
     fill: #616161;
     transition: fill 0.5s;
+}
+
+/* section contact */
+
+.secion-contact {
+    position: relative;
+}
+
+.section-contact__image {
+    position: absolute;
+    left: -100px;
+}
+
+.contact-content {
+    width: 570px;
+    margin-top: 100px;
+}
+
+.contact-content__sup {
+    opacity: 0.27;
+    color: #0b0c11;
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+.contact-contet__address {
+    color: #333333;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 46px;
+    width: 336px;
+    margin: 42px 0 45px 49px;
 }
 
 /* used fonts */
