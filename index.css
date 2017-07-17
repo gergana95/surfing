@@ -488,6 +488,7 @@ q:before, q:after{ content: "";}
 
 .surf-camps {
     position: relative;
+    margin-bottom: 120px;
 }
 
 .surf-camps__article {
@@ -532,7 +533,6 @@ q:before, q:after{ content: "";}
     margin-bottom: 34px;
 }
 
-
 .surf-camps__aside {
     position: absolute;
     top: -5px;
@@ -554,6 +554,23 @@ q:before, q:after{ content: "";}
     text-overflow: ellipsis;
     white-space: nowrap;
     max-height: 300px;
+}
+
+
+/* second article - section */
+
+.surf-camps__second {
+    width: 73%;
+    margin: 0 auto;
+}
+
+.surf-camps__article--second {
+    position: relative;
+    width: 37.6%;
+}
+
+.article__paragraph--second {
+    width: 100%;
 }
 
 /* used fonts */
