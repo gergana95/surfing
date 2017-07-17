@@ -344,6 +344,7 @@ q:before, q:after{ content: "";}
 .shop-container {
     position: relative;
     text-align: center;
+    margin-bottom: 173px;
 }
 
 .shop-heading {
@@ -481,6 +482,78 @@ q:before, q:after{ content: "";}
 
 .shop-controls__next-arrow {
     cursor: pointer;
+}
+
+/* surf camps - first article */
+
+.surf-camps {
+    position: relative;
+}
+
+.surf-camps__article {
+    position: absolute;
+
+}
+
+.article__number {
+    color: #f9f9f9;
+    font-size: 130px;
+    font-weight: 700;
+}
+
+.article__title {
+    color: #333333;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+    position: absolute;
+    top: 70px;
+    margin:0;
+    left: 5px;
+}
+
+.article__title::after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 2px;
+    background-color: #5da8ef;
+    margin-top: 10px;
+}
+
+.article__paragraph {
+    opacity: 0.65;
+    color: #616161;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    width: 27.4%;
+    margin-bottom: 34px;
+}
+
+
+.surf-camps__aside {
+    position: absolute;
+    top: -5px;
+    right: -28px;
+}
+
+.surf-camps__title {
+    opacity: 0.2;
+    color: #0b0c11;
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-height: 300px;
 }
 
 /* used fonts */
