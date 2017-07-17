@@ -491,9 +491,38 @@ q:before, q:after{ content: "";}
     margin-bottom: 120px;
 }
 
-.surf-camps__article {
-    position: absolute;
+
+.promo-box {
+    position: relative;
 }
+.promo-box--left {
+    width: 413px;
+    padding-right: 50px;
+}
+.promo-box__sup {
+    color: #f9f9f9;
+    font-size: 130px;
+    font-weight: 700;
+}
+.promo-box__title {
+    color: #333333;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+    position: absolute;
+    top: 70px;
+    left: 5px;
+    margin: 0;
+}
+.promo-box__text {
+    opacity: 0.65;
+    color: #616161;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 34px;
+}
+
 
 .article__number {
     color: #f9f9f9;
