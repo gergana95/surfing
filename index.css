@@ -551,6 +551,7 @@ q:before, q:after{ content: "";}
     width: 73%;
     margin: 0 auto;
     position: relative;
+    padding-bottom: 113px;
 }
 
 .section-betha__aside {
@@ -560,6 +561,82 @@ q:before, q:after{ content: "";}
 
 .article__paragraph--second {
     width: 100%;
+}
+
+/* section join */
+
+.section-join:before {
+    display: block;
+    content: "";
+    text-align: center;
+    height: 100px;
+    width: 2px;
+    margin: 0 auto;
+    background-color: #5da8ef;
+    margin-bottom: 63px;
+}
+
+.section-join {
+    margin: 0 auto;
+    width: 590px;
+    text-align: center;
+}
+
+.join__title {
+    color: #333333;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 66px;
+    margin: 0;
+}
+
+.join__text {
+    opacity: 0.65;
+    color: #616161;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+input[type="email"] {
+    width: 538px;
+    height: 48px;
+    background-color: #f5f5f5;
+    border: none;
+}
+
+::placeholder {
+    opacity: 0.9;
+    color: #333333;
+    font-family: "League Spartan";
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-indent: 29px;
+}
+
+button[type="submit"] {
+    width: 50px;
+    height: 50px;
+    background-color: #5da8ef;
+    border: none;
+    float: right;
+    text-align: center;
+}
+
+button[type="submit"]:hover {
+    cursor: pointer;
+}
+
+.submit-button {
+    vertical-align: middle;
+}
+
+.submit-button:hover > path {
+    fill: #616161;
+    transition: fill 0.5s;
 }
 
 /* used fonts */
