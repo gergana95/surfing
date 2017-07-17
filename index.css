@@ -532,6 +532,30 @@ q:before, q:after{ content: "";}
     margin-bottom: 34px;
 }
 
+
+.surf-camps__aside {
+    position: absolute;
+    top: -5px;
+    right: -28px;
+}
+
+.surf-camps__title {
+    opacity: 0.2;
+    color: #0b0c11;
+    font-size: 9px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-height: 300px;
+}
+
 /* used fonts */
 
 .font-primary {
