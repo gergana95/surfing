@@ -640,11 +640,11 @@ button[type="submit"] {
 
 .submit-button {
     vertical-align: middle;
-    transition: fill 0.5s;
 }
 
-.submit-button:hover > path {
+button[type="submit"]:hover > .submit-button > path {
     fill: #616161;
+    transition: fill 0.5s;
 }
 
 /* section contact */
