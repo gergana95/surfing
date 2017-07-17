@@ -161,7 +161,7 @@ body {
     height: 640px;
 }
 
-.social-bar__title {
+.vertical-text {
     opacity: 0.2;
     text-transform: uppercase;
     font-size: 9px;
@@ -344,6 +344,7 @@ q:before, q:after{ content: "";}
 .shop-container {
     position: relative;
     text-align: center;
+    margin-bottom: 173px;
 }
 
 .shop-heading {
@@ -481,6 +482,84 @@ q:before, q:after{ content: "";}
 
 .shop-controls__next-arrow {
     cursor: pointer;
+}
+
+/* surf camps - first article */
+
+.section-alpha {
+    position: relative;
+    margin-bottom: 120px;
+}
+
+.promo-box {
+    position: relative;
+}
+
+.promo-box--left {
+    width: 413px;
+    padding-right: 50px;
+}
+
+.promo-box__sup {
+    color: #f9f9f9;
+    font-size: 130px;
+}
+
+.promo-box__title {
+    color: #333333;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50px;
+    position: absolute;
+    top: 70px;
+    left: 5px;
+    margin: 0;
+}
+
+.promo-box__title::after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 23px;
+    height: 2px;
+    background-color: #5da8ef;
+    margin-top: 10px;
+}
+
+.promo-box__text {
+    opacity: 0.65;
+    color: #616161;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    margin-bottom: 34px;
+}
+
+.section-alpha__aside {
+    position: absolute;
+    top: -5px;
+    right: -28px;
+}
+
+/* surf camps - second article */
+
+.promo-box--right {
+    width: 330px;
+}
+
+.section-betha {
+    width: 73%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.section-betha__aside {
+    position: absolute;
+    left: -30px;
+}
+
+.article__paragraph--second {
+    width: 100%;
 }
 
 /* used fonts */
