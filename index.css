@@ -344,6 +344,7 @@ q:before, q:after{ content: "";}
 .shop-container {
     position: relative;
     text-align: center;
+    margin-bottom: 173px;
 }
 
 .shop-heading {
@@ -498,7 +499,6 @@ q:before, q:after{ content: "";}
     color: #f9f9f9;
     font-size: 130px;
     font-weight: 700;
-   /* line-height: 66px;*/
 }
 
 .article__title {
@@ -509,6 +509,7 @@ q:before, q:after{ content: "";}
     position: absolute;
     top: 70px;
     margin:0;
+    left: 5px;
 }
 
 .article__title::after {
@@ -528,6 +529,7 @@ q:before, q:after{ content: "";}
     font-weight: 300;
     line-height: 24px;
     width: 27.4%;
+    margin-bottom: 34px;
 }
 
 /* used fonts */
