@@ -493,7 +493,6 @@ q:before, q:after{ content: "";}
 
 .surf-camps__article {
     position: absolute;
-
 }
 
 .article__number {
@@ -562,6 +561,12 @@ q:before, q:after{ content: "";}
 .surf-camps__second {
     width: 73%;
     margin: 0 auto;
+    position: relative;
+}
+
+.surf-camps__aside--second {
+    position: absolute;
+    left: -30px;
 }
 
 .surf-camps__article--second {
