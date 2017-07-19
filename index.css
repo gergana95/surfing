@@ -734,3 +734,28 @@ input[type="email"]:focus {
     display: table;
     clear: both;
 }
+
+@media only screen and (max-width:1245px) {
+    .wrapper { width: 90%; }
+
+    .slider-controls { background: #f2f2f2; border-radius: 14px; box-shadow: 0 0 5px 3px #a6a6a6; }
+    .slider-controls__pages { color: #a6a6a6; }
+    .slider-controls__left-arrow > path , .slider-controls__right-arrow > path { fill: #5da8ef;  }
+    .slider-controls__left-arrow:hover > path , .slider-controls__right-arrow:hover > path { fill: #333; }
+
+    .promo-box { width: 30%; }
+    .contact-content { width: 40%; }
+}
+
+@media only screen and (max-width: 1155px) {
+
+    .section-alpha, .section-betha { text-align: center; }
+    .promo-box { width: 100%; }
+    .secion-alpha__image, .section-betha__image {float: none;}
+    .promo-box__title { position: static; }
+
+    .section-contact { text-align: center; }
+    .section-contact__image { position: static; }
+    .contact-content { width: 100%; }
+    .contact-contet__address { margin: 3px auto; }
+}
