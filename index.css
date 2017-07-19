@@ -795,6 +795,13 @@ input[type="email"]:focus {
 }
 
 
+@media only screen and (max-width: 1090px) {
+
+    .primary-slider__content { top:0px; text-align: center; transform: translateY(0); }
+    .primary-slider__paragraph { margin: 0 auto; }
+    .primer-slider__image { float: none; }
+}
+
 @media only screen and (max-width: 695px) {
 
 
