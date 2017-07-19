@@ -749,6 +749,8 @@ input[type="email"]:focus {
 
 @media only screen and (max-width: 1155px) {
 
+    .catalog__surf-image { left: 0; }
+
     .section-alpha, .section-betha { text-align: center; }
     .promo-box { width: 100%; }
     .secion-alpha__image, .section-betha__image {float: none;}
