@@ -771,9 +771,11 @@ input[type="email"]:focus {
     .catalog__surf-image { left: 0; }
 
     .section-alpha, .section-betha { text-align: center; }
-    .promo-box { width: 100%; }
+    .promo-box { width: 100%; padding-right: 0; }
     .section-alpha__image, .section-betha__image { float: none; }
-    .promo-box__title { position: static; }
+    .promo-box__title { position: static; margin-top: -90px; }
+    .promo-box__title::after { left: 50%; }
+    .promo-box__text { width: 80%; margin: 20px auto; }
 
     .section-contact { text-align: center; }
     .section-contact__image { position: static; }
