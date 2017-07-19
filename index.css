@@ -753,6 +753,9 @@ input[type="email"]:focus {
     .slider-controls__right-arrow:hover > path
     { fill: #333; }
 
+
+    .shop-controls__previous-button { left: -40px; }
+    .shop-controls__next-button { right: -40px; }
     .promo-box { width: 30%; }
     .contact-content { width: 40%; }
 }
