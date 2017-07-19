@@ -796,13 +796,14 @@ input[type="email"]:focus {
 @media only screen and (max-width: 470px) {
 
 
+    .header { text-align: center; }
+    .header__logo { float: none; margin-right: 0; }
     /* This is hamburger menu for mobile phones from: https://codepen.io/erikterwan/pen/EVzeRP */
 
     .navigation  {
       display: block;
-      top: 50px;
-      left: 50px;
       z-index: 1;
+      position: relative;
       -webkit-user-select: none;
       user-select: none;
     }
@@ -877,6 +878,7 @@ input[type="email"]:focus {
         transform: translate(-100%, 0);
         transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
         z-index: 1;
+        border-radius: 34px;
     }
 
     .navigation__item {
