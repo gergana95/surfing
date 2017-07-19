@@ -793,14 +793,13 @@ input[type="email"]:focus {
     .contact-contet__address { margin: 3px auto; }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 470px) {
 
 
     /* This is hamburger menu for mobile phones from: https://codepen.io/erikterwan/pen/EVzeRP */
 
     .navigation  {
       display: block;
-      position: relative;
       top: 50px;
       left: 50px;
       z-index: 1;
@@ -829,7 +828,7 @@ input[type="email"]:focus {
       position: relative;
       background: #cdcdcd;
       border-radius: 3px;
-      z-index: 1;
+      z-index: 2;
       transform-origin: 4px 0px;
       transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
@@ -856,6 +855,41 @@ input[type="email"]:focus {
       transform: rotate(0deg) scale(0.2, 0.2);
     }
 
+    .navigation input:checked ~ span:nth-last-child(2) {
+      opacity: 1;
+      transform: rotate(-45deg) translate(0, -1px);
+    }
 
+    .navigation__list {
+        position: absolute;
+        top: 15px;
+        left: -10px;
+        transform: translate(-100%, 0);
+        transition: all 0.5s;
+        width: 200px;
+        margin: -100px 0 0 -50px;
+        padding: 50px;
+        padding-top: 125px;
+        background: #ededed;
+        -webkit-font-smoothing: antialiased;
+        /* to stop flickering of text in safari */
+        transform-origin: 0% 0%;
+        transform: translate(-100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+        z-index: 1;
+    }
+
+    .navigation__item {
+        display: block;
+        width: 100%;
+        padding: 2px;
+        margin-left: 9px;
+        padding: 8px;
+    }
+
+    .navigation input:checked ~ ul {
+        transform: scale(1.0, 1.0);
+        opacity: 1;
+    }
 }
 
