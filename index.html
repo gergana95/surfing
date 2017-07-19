@@ -13,8 +13,26 @@
 <body>
 <div class="wrapper">
      <header class="header group">
+
         <img class="header__logo left" src="images/logo.svg" alt="header logo" width="16" height="44" />
+
         <nav class="navigation font-primary">
+
+                <!--
+                A fake / hidden checkbox is used as click reciever,
+                so you can use the :checked selector on it.
+                -->
+                <input type="checkbox" />
+                <!--
+                Some spans to act as a hamburger.
+                They are acting like a real hamburger,
+                not that McDonalds stuff.
+                -->
+                <span></span>
+                <span></span>
+                <span></span>
+
+
             <ul class="navigation__list">
                 <li class="navigation__item"><a class="navigation__link" href="#">stories</a></li>
                 <li class="navigation__item"><a class="navigation__link" href="#">events</a></li>
@@ -22,6 +40,10 @@
                 <li class="navigation__item"><a class="navigation__link" href="#">boards</a></li>
             </ul>
         </nav>
+
+
+
+
     </header>
 
     <section class="primary-slider group">
