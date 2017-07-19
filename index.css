@@ -793,11 +793,14 @@ input[type="email"]:focus {
     .contact-contet__address { margin: 3px auto; }
 }
 
+
 @media only screen and (max-width: 470px) {
 
 
     .header { text-align: center; }
-    .header__logo { float: none; margin-right: 0; }
+    .header__logo { position: absolute; left: 50%; margin-left: -8px; }
+
+
     /* This is hamburger menu for mobile phones from: https://codepen.io/erikterwan/pen/EVzeRP */
 
     .navigation  {
