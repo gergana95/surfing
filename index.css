@@ -770,6 +770,7 @@ input[type="email"]:focus {
 
 @media only screen and (max-width: 1155px) {
 
+    .header__logo { margin-right: 20px; }
     .gallery { text-align: center; }
     .gallery__col-2 {
         position: relative;
