@@ -30,6 +30,10 @@
     display: inline-block;
 }
 
+.navigation input {
+    display: none;
+}
+
 .navigation__list {
     padding: 13px 0;
     margin: 0;
