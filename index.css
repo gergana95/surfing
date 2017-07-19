@@ -797,9 +797,10 @@ input[type="email"]:focus {
 
 @media only screen and (max-width: 1090px) {
 
-    .primary-slider__content { top:0px; text-align: center; transform: translateY(0); }
-    .primary-slider__paragraph { margin: 0 auto; }
-    .primer-slider__image { float: none; }
+    .primary-slider__content { position: relative; text-align: center; transform: translateY(0); }
+    .primary-slider__paragraph { margin: 0 auto; width: 50%; }
+    .primer-slider__image { float: none;  max-width: 100%; }
+    .slider-controls { left: 50%; margin-left: -51.07px; margin-top: 20px; }
 }
 
 @media only screen and (max-width: 695px) {
