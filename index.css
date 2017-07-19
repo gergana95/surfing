@@ -731,6 +731,13 @@ input[type="email"]:focus {
     clear: both;
 }
 
+
+@media only screen and (max-width: 1384px) {
+
+    .shop-controls__previous-button { left: -40px; }
+    .shop-controls__next-button { right: -40px; }
+}
+
 @media only screen and (max-width:1265px) {
 
     .wrapper { width: 90%; }
@@ -753,9 +760,6 @@ input[type="email"]:focus {
     .slider-controls__right-arrow:hover > path
     { fill: #333; }
 
-
-    .shop-controls__previous-button { left: -40px; }
-    .shop-controls__next-button { right: -40px; }
     .promo-box { width: 30%; }
     .contact-content { width: 40%; }
 }
@@ -777,6 +781,7 @@ input[type="email"]:focus {
     .promo-box__title { position: static; margin-top: -90px; }
     .promo-box__title::after { left: 50%; }
     .promo-box__text { width: 80%; margin: 20px auto; }
+    .vertical-text {display: none;}
 
     .section-contact { text-align: center; }
     .section-contact__image { position: static; }
