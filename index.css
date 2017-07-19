@@ -8,10 +8,6 @@
     font-style: normal;
 }
 
-body {
-    overflow-x: hidden;
-}
-
 .wrapper {
     position: relative;
     width: 1225px;
