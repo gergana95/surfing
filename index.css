@@ -30,6 +30,10 @@
     display: inline-block;
 }
 
+.navigation input {
+    display: none;
+}
+
 .navigation__list {
     padding: 13px 0;
     margin: 0;
@@ -766,6 +770,7 @@ input[type="email"]:focus {
 
 @media only screen and (max-width: 1155px) {
 
+    .header__logo { margin-right: 55px; }
     .gallery { text-align: center; }
     .gallery__col-2 {
         position: relative;
@@ -788,3 +793,113 @@ input[type="email"]:focus {
     .contact-content { width: 100%; }
     .contact-contet__address { margin: 3px auto; }
 }
+
+
+@media only screen and (max-width: 695px) {
+
+
+    .header { text-align: center; margin-top: 25px;}
+    .header__logo { position: absolute; left: 50%; margin-left: -8px; }
+
+
+    /* This is hamburger menu for mobile phones from: https://codepen.io/erikterwan/pen/EVzeRP */
+
+    .navigation  {
+      display: block;
+      z-index: 1;
+      position: relative;
+      -webkit-user-select: none;
+      user-select: none;
+      top: 11px;
+    }
+
+    .navigation input {
+      display: block;
+      width: 40px;
+      height: 32px;
+      position: absolute;
+      top: -7px;
+      left: -5px;
+      cursor: pointer;
+      opacity: 0; /* hide this */
+      z-index: 3; /* and place it over the hamburger */
+     -webkit-touch-callout: none;
+    }
+
+    .navigation .navigation__hamburger {
+      display: block;
+      width: 33px;
+      height: 4px;
+      margin-bottom: 5px;
+      position: relative;
+      background: #cdcdcd;
+      border-radius: 3px;
+      z-index: 2;
+      transform-origin: 4px 0px;
+      transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+    }
+
+
+    .navigation .navigation__hamburger:first-child {
+        transform-origin: 0% 0%;
+    }
+
+    .navigation .navigation__hamburger:nth-last-child(2) {
+        transform-origin: 0% 100%;
+    }
+
+    .navigation input:checked ~ .navigation__hamburger {
+      opacity: 1;
+      transform: rotate(45deg) translate(-2px, -1px);
+      background: #232323;
+    }
+
+    .navigation input:checked ~ .navigation__hamburger:nth-last-child(3) {
+      opacity: 0;
+      transform: rotate(0deg) scale(0.2, 0.2);
+    }
+
+    .navigation input:checked ~ .navigation__hamburger:nth-last-child(2) {
+      opacity: 1;
+      transform: rotate(-45deg) translate(0, -1px);
+    }
+
+    .navigation__list {
+        position: absolute;
+        top: 15px;
+        left: -10px;
+        transform: translate(-100%, 0);
+        transition: all 0.5s;
+        width: 200px;
+        margin: -100px 0 0 -50px;
+        padding: 50px;
+        padding-top: 125px;
+        background: #ededed;
+        -webkit-font-smoothing: antialiased;
+        /* to stop flickering of text in safari */
+        transform-origin: 0% 0%;
+        transform: translate(-100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+        z-index: 1;
+        border-radius: 34px;
+    }
+
+    .navigation__item {
+        display: block;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .navigation__link {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .navigation input:checked ~ .navigation__list {
+        transform: scale(1.0, 1.0);
+        opacity: 1;
+    }
+}
+
