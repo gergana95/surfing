@@ -936,5 +936,9 @@ input[type="email"]:focus {
     .shop-controls__previous-button { left: 0; }
     .shop-controls__next-button { right: 0; }
 
+    .section-join { max-width: 100%; }
+    input[type="email"] { width: 91%; padding: 0; }
+    .submit-button { width: 9%; padding: 0; }
+
 }
 
