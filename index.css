@@ -801,6 +801,9 @@ input[type="email"]:focus {
     .primary-slider__paragraph { margin: 0 auto; width: 50%; }
     .primary-slider__image { float: none;  width: 100%; }
     .slider-controls { left: 50%; margin-left: -51.07px; margin-top: 20px; bottom: -10%;}
+
+    .quote { width: 100%; }
+    .quote__content { width: 100%; }
 }
 
 @media only screen and (max-width: 695px) {
