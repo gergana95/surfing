@@ -926,11 +926,14 @@ input[type="email"]:focus {
     /* ...... */
 
     .shop-grid__col-01 {
-        width: 350px;
+        width: 340px;
         left: 50%;
-        margin-left: -175px;
+        margin-left: -165px;
     }
 
     .shop-grid__col-02, .shop-grid__col-03 { display: none; }
+    .shop-controls__previous-button { left: 0; }
+    .shop-controls__next-button { right: 0; }
+
 }
 
