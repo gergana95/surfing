@@ -804,12 +804,13 @@ input[type="email"]:focus {
 
     .quote { width: 100%; }
     .quote__content { width: 100%; }
-    .gallery__image-col-1 { width: 100%; }
-    .gallery__image-col-2 { width: 100%; }
+    .gallery__image-col-2 { max-width: 670px; }
 }
 
 @media only screen and (max-width: 695px) {
 
+    .gallery__image-col-1 { width: 100%; }
+    .gallery__image-col-2 { width: 100%; }
 
     .header { text-align: center; margin-top: 25px;}
     .header__logo { position: absolute; left: 50%; margin-left: -8px; }
