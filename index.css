@@ -824,6 +824,7 @@ input[type="email"]:focus {
     .header { text-align: center; margin-top: 25px;}
     .header__logo { position: absolute; left: 50%; margin-left: -8px; }
 
+    .primary-slider__title { font-size: 56px; }
 
     /* This is hamburger menu for mobile phones from: https://codepen.io/erikterwan/pen/EVzeRP */
 
@@ -933,7 +934,7 @@ input[type="email"]:focus {
     }
 
     .section-media-content { margin-bottom: 100px; }
-    .section-contact { padding-bottom: 100px; }
+    .section-contact { padding-bottom: 70px; }
 
     .shop-grid__col-02, .shop-grid__col-03 { display: none; }
     .shop-controls__previous-button { left: 0; }
@@ -943,7 +944,7 @@ input[type="email"]:focus {
     input[type="email"] { width: 91%; padding: 0; }
     .submit-button { width: 9%; padding: 0; }
 
-    .contact-contet__address { width: 100%; }
+    .contact-contet__address { width: 100%; font-size: 27px;}
 
     .footer .navigation { display: none; }
 }
