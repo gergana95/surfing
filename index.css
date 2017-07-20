@@ -926,9 +926,9 @@ input[type="email"]:focus {
     /* ...... */
 
     .shop-grid__col-01 {
-        width: 90%;
+        width: 350px;
         left: 50%;
-        margin-left: -265px;
+        margin-left: -175px;
     }
 
     .shop-grid__col-02, .shop-grid__col-03 { display: none; }
