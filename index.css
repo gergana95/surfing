@@ -792,7 +792,7 @@ input[type="email"]:focus {
     .promo-box { width: 100%; padding-right: 0; }
     .section-alpha__image, .section-betha__image { float: none; }
     .promo-box__title { position: static; margin-top: -90px; }
-    .promo-box__title::after { left: 50%; }
+    .promo-box__title::after { left: 50%; margin-left: -11.5px; }
     .promo-box__text { width: 80%; margin: 20px auto; }
     .vertical-text { display: none; }
 
@@ -924,7 +924,7 @@ input[type="email"]:focus {
         transform: scale(1.0, 1.0);
         opacity: 1;
     }
-    /* ...... */
+    /* End of hamburger menu section */
 
     .shop-grid__col-01 {
         width: 280px;
