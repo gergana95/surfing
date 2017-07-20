@@ -744,9 +744,10 @@ input[type="email"]:focus {
     .gallery__image-col-1,
     .gallery__image-col-2,
     .primary-slider__image,
+    .catalog__surf-image,
     .section-alpha__image,
     .section-betha__image,
-    .section-contact__image { max-width: 100%; }
+    .section-contact__image { max-width: 100%; height: auto;}
 }
 
 @media only screen and (max-width:1265px) {
