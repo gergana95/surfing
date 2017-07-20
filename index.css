@@ -932,6 +932,9 @@ input[type="email"]:focus {
         margin-left: -140px;
     }
 
+    .section-media-content { margin-bottom: 100px; }
+    .section-contact { padding-bottom: 100px; }
+
     .shop-grid__col-02, .shop-grid__col-03 { display: none; }
     .shop-controls__previous-button { left: 0; }
     .shop-controls__next-button { right: 0; }
