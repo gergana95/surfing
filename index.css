@@ -940,5 +940,6 @@ input[type="email"]:focus {
     input[type="email"] { width: 91%; padding: 0; }
     .submit-button { width: 9%; padding: 0; }
 
+    .contact-contet__address { width: 100%; }
 }
 
