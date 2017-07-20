@@ -807,6 +807,11 @@ input[type="email"]:focus {
     .gallery__image-col-2 { max-width: 670px; }
 }
 
+@media only screen and (max-width:860px) {
+    .shop-grid__col-01, .shop-grid__col-02 { width: 46.65%; }
+    .shop-grid__col-03 { display: none; }
+}
+
 @media only screen and (max-width: 695px) {
 
     .gallery__image-col-1 { width: 100%; }
